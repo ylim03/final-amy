@@ -1,0 +1,88 @@
+body {
+    width: 100vw;
+    background-color: rgb(92, 170, 39);
+}
+
+img {
+    width: 130%;
+}
+
+
+.image {
+    animation: bounce 5.5s linear infinite;
+    width: 200px;
+    position: absolute;
+    top: 30;
+    left: 0;
+}
+
+image {
+    <div>
+    image transform: translate (40px, 20px);
+}
+
+button{
+    color: black;
+    background-color: crimson;
+
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.2s;
+}
+
+button: hover {
+    background-color: rgba (255, 0, 0, 0.3)
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translate(100vw, 50vh);
+    }
+
+    20% {
+        transform: translate(75vw, 25vh);
+    }
+
+    40% {
+        transform: translate(50vw, 50vh);
+    }
+
+    60% {
+        transform: translate(25vw, 25vh);
+    }
+
+    80% {
+        transform: translate(0vw, 50vh);
+    }
+
+    100% {
+        transform: translate(-25vw, 25vh);
+    }
+}
+
+body {
+    font-family: lust-sans,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+   div { 
+      background-color: magenta;
+  }
+
+  div:hover {
+      background-color: aqua;
+  }
+  div:hover p {
+      font-style: italic;
+  }
+
+  button {
+      background-color: aquamarine;
+  }
+
+  button:hover {
+      background-color: cornflowerblue;
+  }
